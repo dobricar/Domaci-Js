@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+  
+  }
+  
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+  
+  #Welcome-section {
+    width:100%;  
+    background-image: url(tour_img-1096032-146.jpg);
+    background-color: grey;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 35vh;
+    padding-top: 35vh;
+    opacity: 0.3;
+  }
+  
+  #heading {
+      color: white;
+      font-size: 55px;
+  }
+  .button {
+	border-radius:28px;
+	border:2px solid #61ee0f;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Arial;
+	font-size:17px;
+	padding:10px 21px;
+	margin-top: 20px;
+  }
+.button a {
+    color:#61ee0f;
+    text-decoration:none;
+}  
+
+
+    .parents1 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+      }
+      
+      .image {
+         grid-area: 1 / 1 / 2 / 2; 
+         width: 200px;
+         margin: 100px;
+         text-align: center;
+         line-height: 75px;
+         font-size: 30px;
+         border-radius:50%;
+      }
+      .parent2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+        .text { 
+          grid-area: 1 / 1 / 2 / 2; 
+          display: block;
+          text-align: center;
+        }
+        h2 {
+          margin-top: -50px;
+        }
+         p {
+           margin-top: 40px;
+           text-align: justify;
+           margin-left: 200px;
+           position: relative;
+         }
+       .container {
+        background-color:#27b36f;
+        position: relative;
+        width: 100%;
+        height: 330px;
+        top: 130px;
+        margin-top: -500px;
+       }
+       h3 {
+        text-align: center;
+        color: white;
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+    }
+       label{
+        width: 10px;
+        border-radius: 5px;
+        color: white;
+        font-weight: 6px;
+        text-align: left;
+    }
+    #special{
+        margin-left: 325px;
+    }
+    input{
+        width: 40%;
+        margin-left: 40px;
+        border-radius: 5px;
+        background-color:#27b36f;
+    }
+    textarea{
+        margin-left:40px;
+        background-color:#27b36f;
+
+    }
+    button {
+      width: 130px;
+      height: 30px;
+     
+      border-radius: 15px;
+      display: inline-block;
+      margin-left: 40px;
+  }
+  .btn{
+      border: 1px solid white;
+      color: white;
+      background-color: Transparent;
+      background-repeat:no-repeat;
+  }
