@@ -11,7 +11,7 @@ body {
   
   #welcome-section {
     top:0;
-    background: #98C2EC;
+    background: rgb(13, 95, 24);
     min-height: 55vh;
     padding-top: 45vh;
   }
