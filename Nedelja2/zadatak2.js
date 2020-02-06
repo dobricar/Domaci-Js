@@ -1,4 +1,4 @@
-let cost = 64.3;
+let cost = 100;
 let euro = 200;
 let diff = euro - cost;
 if (cost - euro > 0) {
