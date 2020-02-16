@@ -1,6 +1,6 @@
-let matematicka_operacija = '^';
+let matematicka_operacija = '*';
 let a = 2;
-let b = 3;
+let b = 3333;
 switch(matematicka_operacija) {
     case'+':
     console.log(a + b);
